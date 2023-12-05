@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans&family=PT+Sans+Narrow:wght@700&family=REM:wght@500&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Rajdhani', sans-serif; */
+}
+header{
+    /* background-color: aqua; */
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    /* background-color: cadetblue; */
+    background-color: rgb(44, 168, 40);
+    width: 100%;
+    height: 100px;
+    
+
+}
+.topbar{
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navlinks li{
+    list-style-type: none;
+}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 23px;
+    font-weight: 200;
+
+}
+.logo{
+    /* background-color: blue; */
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.logo img{
+    height: 80%;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: darkmagenta; */
+    width: 40%;
+    height: 100%;
+}
+.herosection{
+    height :85vh;
+    width: 100%;
+    background-image: url(./images/pexels-any-lane-5946083.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    width: 100%;
+    height: 100%;
+    padding: 280px 0px 0px 500px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Black Ops One', cursive;  
+}
+span {
+   font-size: 90px;
+   color: red;
+}
+
+.text button{
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px 5px;
+    border: 2px solid black;
+    background-color: transparent;
+    /* background-color: rgb(255, 0, 204); */
+    
+}
+.text  button a{
+    text-decoration: none;
+    padding: 10px;
+    color: red;
+    font-weight: bolder;
+    
+}
+.bar{
+    background-color:rgb(41, 27, 27);
+    height: 6vh;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+   
+    
+}
+
+.cardcontainer{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(330px,1fr));
+    gap: 2rem;
+    
+
+}
+.card{
+    background-color:white;
+    height: 65vh;
+    width: 90%;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 2px 8px 8px 3px rgb(31, 28, 28);
+    
+    
+}
+.cardHeader img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 20px 0px 0 0;
+    
+}
+.cardBody {
+    text-align: center;
+    padding: 0px 20px 30px;
+    margin-top: 10px;
+    
+}
+.cardBody h4 {
+    padding: 10px 10px;
+    font-size: x-large;
+    
+
+}
+.cardBody button{
+    height: 25px;
+    width: 100px;
+    background-color: transparent;
+    border: 2px solid rgb(130, 238, 137);
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.cardBody button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.dropdown  {
+    position: relative;
+    
+}
+.dropdown .list {
+    position: absolute;
+    top: 20px;
+    padding-top: 30px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+}
+.dropdown .list li{
+    height: 100%;
+    width: 100%;
+}
+.dropdown .list li a{
+    height: 45px;
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: greenyellow; */
+    /* color: rgb(16, 15, 15); */
+    font-weight: 800;
+}
+.navlinks .dropdown:hover .list{
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown .list li a:hover{
+    background-color: #0e1010;
+}
+.bar1 {
+    background-color:rgb(41, 27, 27);
+    height: 6vh;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+}
+.card1 {
+    background-color:white;
+    height: 65vh;
+    width: 90%;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow: 2px 8px 8px 3px rgb(31, 28, 28);
+}
+.cardHeader1 img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 0px 20px 0 0;
+}
+    
+
+
+
+
+
+
+
+
+
